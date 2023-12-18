@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EuroTur</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <nav>
+    <div id="cabecalho">
+      <img src="img_codigo/icons8-turismo-50.png" alt="icone_turismo">
+      <h1>EuroTur</h1>
+    </div>
+    <ul>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="pagina2.html">Locais Turísticos</a></li>
+      <li><a href="pagina3.html">Contato</a></li>
+    </ul>
+  </nav>
+  <main>
+
+    <form action="http://formmail.kinghost.net/formmail.cgi" method="POST">
+      <input type="hidden" name="recipient" value="testeiseuemail@gmail.com"> <!-- Pode ser qualquer endereço de email -->
+      <input type="hidden" name="redirect" value="http://seudominio"> <!-- Após o envio, o usuário será redirecionado para a página configurada aqui -->
+      <input type="hidden" name="subject" value="teste de assunto"> <!-- Assunto da mensagem -->
+      <input type="hidden" name="email" value="email@doseudominio"> <!-- Deve ser uma conta de email ativa em seu domínio -->
+
+      <p>
+        Nome:<br />
+        <input type="text" size="30" name="nome">
+      </p>
+
+      <p>
+        E-mail:<br />
+        <input type="text" size="30" name="replyto">
+      </p>
+
+      <p>
+        Comentários:<br />
+        <input type="text" size="35" name="Comentarios">
+      </p>
+
+      <p>
+        <input type="submit" name="BTEnvia" value="Enviar">
+        <input type="reset" name="BTApaga" value="Apagar">
+      </p>
+    </form>
+  </main><br><br><br><br><br><br>
+  <footer>
+    <p>© 2023 Feito por Leandro Schalemberg.</p>
+    <p>Acesse meu GitHub <a href="https://github.com/schalemberg"><b>Aqui</b></a></p>
+
+  </footer>
+</body>
+
+</html>
