@@ -16,16 +16,16 @@ nav {
   background-color: #333;
   color: #fff;
   padding: 10px 20px;
-  display: flex;
+  display: flex; /*uso do flex-box */
   justify-content: space-between;
   align-items: center;
   gap: 30px;
 }
 
 #cabecalho{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  display: flex;  /*uso do flex-box */
+  justify-content: space-between;  /*uso do flex-box */
+  align-items: center;  /*uso do flex-box */
   gap: 30px;
 }
 
@@ -40,7 +40,7 @@ a:hover {
 
 ul {
   list-style: none;
-  display: flex;
+  display: flex;  /*uso do flex-box */
   gap: 30px;
 }
 
@@ -62,9 +62,9 @@ footer {
   background-color: #333;
   color: #fff;
   padding: 10px 20px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  display: flex;  /*uso do flex-box */
+  justify-content: space-between;  /*uso do flex-box */
+  align-items: center;  /*uso do flex-box */
   gap: 30px;
 }
 
