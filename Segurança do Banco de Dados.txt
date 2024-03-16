@@ -1,0 +1,7 @@
+Após uma varredura rápida no sistema de banco de dados de uma empresa de vendas, identificamos a necessidade de melhorar a segurança dessas informações. Por isso, será necessário desenvolver um novo banco para armazenar os dados mais importantes, como detalhes dos clientes, valores faturados diariamente e informações sobre os produtos, além de outros. Sendo assim, explique quais são os pilares da segurança de dados que devem ser seguidos para que o novo banco seja bem projetado e funcione corretamente
+
+1. Confidencialidade: Garante que os dados sejam acessíveis apenas a pessoas autorizadas. Isso pode ser alcançado através de medidas como criptografia de dados, autenticação de usuários e controle de acesso.
+
+2. Integridade: Garante que os dados sejam precisos e completos e que não sejam alterados de maneira não autorizada. Isso pode ser alcançado através de medidas como restrições de integridade de dados, controle de versão e backups regulares.
+
+3. Disponibilidade: Garante que os dados estejam sempre disponíveis quando necessário. Isso pode ser alcançado através de medidas como redundância de dados, balanceamento de carga e planos de recuperação de desastres.
